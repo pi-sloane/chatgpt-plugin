@@ -1,0 +1,11 @@
+interface:
+  display_name: "Start a Pi Design Review"
+  short_description: "Send a design document for security review"
+  default_prompt: "Use $start-pi-security-design-review to start a security review for this design document."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "pi-security"
+      description: "Access your Pi Security workspace"
+      transport: "streamable_http"
+      url: "https://mcp.pi.security/mcp"

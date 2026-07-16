@@ -1,0 +1,42 @@
+{
+  "name": "pi-security",
+  "version": "0.1.0",
+  "description": "Use Pi Security in ChatGPT and Codex to investigate findings, understand security posture, and get practical guidance.",
+  "author": {
+    "name": "Pi Security",
+    "email": "contact@pi.security",
+    "url": "https://www.pi.security/"
+  },
+  "homepage": "https://www.pi.security/",
+  "repository": "https://github.com/pi-sloane/chatgpt-plugin",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "findings",
+    "threat-modeling",
+    "remediation",
+    "secure-development"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Pi Security",
+    "shortDescription": "Investigate findings and get practical security guidance",
+    "longDescription": "Bring Pi Security into your ChatGPT and Codex workflows. Investigate findings, review threat-model and Code Gatekeeper posture, get remediation guidance, start design reviews, import Markdown reports, and apply secure-development playbooks.",
+    "developerName": "Pi Security",
+    "category": "Security",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.pi.security/",
+    "privacyPolicyURL": "https://www.pi.security/privacy-policy",
+    "termsOfServiceURL": "https://www.pi.security/terms-and-conditions",
+    "defaultPrompt": [
+      "Help me understand the evidence behind a Pi security finding.",
+      "Review my threat-model and Code Gatekeeper security posture.",
+      "Show me Pi's remediation guidance without changing code."
+    ]
+  }
+}

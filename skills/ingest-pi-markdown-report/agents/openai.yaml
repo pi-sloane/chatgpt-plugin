@@ -1,0 +1,11 @@
+interface:
+  display_name: "Import a Pi Markdown Report"
+  short_description: "Send a pasted Markdown report to Pi"
+  default_prompt: "Use $ingest-pi-markdown-report to import this pasted report as security-review.md."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "pi-security"
+      description: "Access your Pi Security workspace"
+      transport: "streamable_http"
+      url: "https://mcp.pi.security/mcp"

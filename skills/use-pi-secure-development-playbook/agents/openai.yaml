@@ -1,0 +1,11 @@
+interface:
+  display_name: "Use Pi's Development Playbook"
+  short_description: "Apply Pi guidance to a development task"
+  default_prompt: "Use $use-pi-secure-development-playbook to guide this implementation with Pi's security playbook."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "pi-security"
+      description: "Access your Pi Security workspace"
+      transport: "streamable_http"
+      url: "https://mcp.pi.security/mcp"

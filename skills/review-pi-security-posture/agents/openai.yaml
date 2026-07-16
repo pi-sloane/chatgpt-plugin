@@ -1,0 +1,11 @@
+interface:
+  display_name: "Review Pi Security Posture"
+  short_description: "Review threat-model and Gatekeeper posture"
+  default_prompt: "Use $review-pi-security-posture to review my current Pi security posture."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "pi-security"
+      description: "Access your Pi Security workspace"
+      transport: "streamable_http"
+      url: "https://mcp.pi.security/mcp"
