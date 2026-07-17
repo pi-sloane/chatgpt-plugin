@@ -2,10 +2,3 @@ interface:
   display_name: "Get Pi Remediation Guidance"
   short_description: "Get practical guidance for a security issue"
   default_prompt: "Use $get-pi-remediation-guidance to show me the guidance for FND-123 without changing code."
-dependencies:
-  tools:
-    - type: "mcp"
-      value: "pi-security"
-      description: "Access your Pi Security workspace"
-      transport: "streamable_http"
-      url: "https://mcp.pi.security/mcp"

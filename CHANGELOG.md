@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2] - 2026-07-17
+
+- Fixed installation opening an OAuth request for unsupported profile scopes before the Pi Security login.
+
+## [0.1.1] - 2026-07-17
+
+- Added the Pi Security icon to the plugin directory and composer.
+
 ## [0.1.0] - 2026-07-16
 
 Initial release of Pi Security for ChatGPT and Codex.

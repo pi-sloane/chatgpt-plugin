@@ -1,0 +1,20 @@
+{
+  "name": "pi-security",
+  "interface": {
+    "displayName": "Pi Security"
+  },
+  "plugins": [
+    {
+      "name": "pi-security",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    }
+  ]
+}

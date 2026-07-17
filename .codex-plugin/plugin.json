@@ -1,6 +1,6 @@
 {
   "name": "pi-security",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Use Pi Security in ChatGPT and Codex to investigate findings, understand security posture, and get practical guidance.",
   "author": {
     "name": "Pi Security",
@@ -33,6 +33,8 @@
     "websiteURL": "https://www.pi.security/",
     "privacyPolicyURL": "https://www.pi.security/privacy-policy",
     "termsOfServiceURL": "https://www.pi.security/terms-and-conditions",
+    "composerIcon": "./assets/pi-security.png",
+    "logo": "./assets/pi-security.png",
     "defaultPrompt": [
       "Help me understand the evidence behind a Pi security finding.",
       "Review my threat-model and Code Gatekeeper security posture.",
