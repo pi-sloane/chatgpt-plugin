@@ -1,8 +1,12 @@
 # Changelog
 
+## [0.1.3] - 2026-07-17
+
+- Restored ChatGPT GitHub import by relying on the MCP server's OAuth discovery metadata instead of unsupported MCP-only app fields.
+
 ## [0.1.2] - 2026-07-17
 
-- Fixed installation opening an OAuth request for unsupported profile scopes before the Pi Security login.
+- Configured Codex MCP installations to request the `mcp:access` scope explicitly.
 
 ## [0.1.1] - 2026-07-17
 

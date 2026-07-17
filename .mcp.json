@@ -2,9 +2,7 @@
   "mcpServers": {
     "pi-security": {
       "type": "http",
-      "url": "https://mcp.pi.security/mcp",
-      "oauth_resource": "https://mcp.pi.security/mcp",
-      "scopes": ["mcp:access"]
+      "url": "https://mcp.pi.security/mcp"
     }
   }
 }
