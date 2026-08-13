@@ -2,6 +2,8 @@
 
 Bring security context from Pi into the way you already work. Pi Security helps you investigate findings, understand your security posture, get remediation guidance, review designs, import Markdown reports, and follow secure-development guidance without leaving your conversation.
 
+![Pi Security logo](assets/pi-favicon-light.svg)
+
 ## What you can do
 
 | Workflow | Use it to |
