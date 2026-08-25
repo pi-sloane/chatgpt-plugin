@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.4] - 2026-08-25
+
+- Bound development guidance to one playbook lookup for a stable task, with repository-evidence fallback for adjacent or missing coverage and one short generic lookup only for genuinely necessary threat-model context.
+
 ## [0.1.3] - 2026-07-17
 
 - Restored ChatGPT GitHub import by relying on the MCP server's OAuth discovery metadata instead of unsupported MCP-only app fields.

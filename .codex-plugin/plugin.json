@@ -1,6 +1,6 @@
 {
   "name": "pi-security",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Use Pi Security in ChatGPT and Codex to investigate findings, understand security posture, and get practical guidance.",
   "author": {
     "name": "Pi Security",
