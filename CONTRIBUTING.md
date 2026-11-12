@@ -4,7 +4,7 @@ Thanks for helping make Pi Security easier and safer to use in ChatGPT and Codex
 
 ## What belongs here
 
-This repository contains the public plugin description, connection configuration, documentation, and six focused skills. Contributions should improve those areas without adding a local server, custom interface, browser extension, background hook, or unrelated automation.
+This repository contains the public plugin description, connection configuration, documentation, and seven focused skills. Contributions should improve those areas without adding a local server, custom interface, browser extension, background hook, or unrelated automation.
 
 Never include credentials, customer data, private URLs, internal documentation, production logs, or proprietary source code. Use synthetic examples in documentation and tests.
 

@@ -12,6 +12,7 @@ Bring security context from Pi into the way you already work. Pi Security helps 
 | **Review security posture** | Bring together threat-model context and Code Gatekeeper results |
 | **Get remediation guidance** | Retrieve Pi's recommended next steps for findings and vulnerable packages |
 | **Start a design review** | Send a supported design document to Pi for security review |
+| **Decide design-review gaps** | Accept the fix, accept the risk, mark false positive, or reopen each gap of a completed review |
 | **Import a Markdown report** | Start processing a security report you paste into the conversation |
 | **Use the secure-development playbook** | Apply relevant security guidance while planning or building software |
 
@@ -31,13 +32,14 @@ Pi respects the access available to your signed-in Pi account. If you belong to 
 - “Investigate Pi finding FND-123 and explain the supporting evidence.”
 - “Review my current threat-model and Code Gatekeeper posture.”
 - “Get the remediation guidance for this finding without changing code.”
+- “Accept the fix on the first gap of my latest design review and accept the risk on the second.”
 - “Use Pi's secure-development playbook for this implementation.”
 
 Examples use synthetic identifiers. Replace them with your own Pi finding or project details.
 
 ## You're always in control
 
-Finding investigations and posture reviews are read-only. Before Pi Security starts an action—such as queuing a design review, importing a report, preparing a package remediation plan, or sending playbook feedback—it will:
+Finding investigations and posture reviews are read-only. Before Pi Security starts an action—such as queuing a design review, recording a design-review verdict, importing a report, preparing a package remediation plan, or sending playbook feedback—it will:
 
 1. show the destination and relevant details;
 2. ask you to confirm; and

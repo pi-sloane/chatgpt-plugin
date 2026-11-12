@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.5] - 2026-11-12
+
+- Added `decide-pi-design-review-gaps`: read a design review's gaps and record a verdict on each (accept fix, accepted risk, false positive, or reopen) with `pi_design_review_gap_update_status`, after a workspace check and explicit confirmation.
+
 ## [0.1.4] - 2026-08-25
 
 - Bound development guidance to one playbook lookup for a stable task, with repository-evidence fallback for adjacent or missing coverage and one short generic lookup only for genuinely necessary threat-model context.
